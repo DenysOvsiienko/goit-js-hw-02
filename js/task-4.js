@@ -1,6 +1,6 @@
 `use strict`;
 function getShippingCost(country) {
-  let price = 0;
+  let price;
   switch (country) {
     case 'China':
       price = 100;
