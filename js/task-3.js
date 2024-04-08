@@ -1,4 +1,4 @@
-`use strict`;
+'use strict';
 function checkForSpam(message) {
   return (
     message.toLowerCase().includes('spam') ||
